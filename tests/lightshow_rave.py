@@ -9,7 +9,7 @@ async def run_light_show(robot):
     
     # Run the rave light show
     logging.info("Starting rave light show...")
-    for _ in range(50):  # Run the show for 50 cycles
+    for _ in range(10):  # Run the show for 50 cycles
         # Generate random colors for each light
         neck_color = random.choice(colors)
         ear_color = random.choice(colors)
